@@ -1,0 +1,14 @@
+{
+    "backup_dir": "<backup_dir>",
+    "output_dir": "<output_dir>",
+    "plex": {
+        "url": "http://<plex_url>:<plex_port>",
+        "token": "<plex_token>",
+        "libraries": ["TV Shows", "Movies"]
+    },
+    "image": {
+        "width": 1920,
+        "height": 1080,
+        "blur_radius": 160
+    }
+}

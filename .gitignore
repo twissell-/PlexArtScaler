@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Personal configuration
+config.json
+
+# Backup and output directories (containing media files)
+backup/
+output/
+.bk-*/
+.output-*/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
