@@ -45,9 +45,8 @@ def search_library_item(title, library=None):
     else:
         libraries = [library]
 
+    items = []
     for library_name in libraries:
-        items = _plex_server.library.section(library_name).search(title)
-        if items:
-            return items
+        items += _plex_server.library.section(library_name).search(title)
 
-    raise ValueError(f"Item {title} not found.")
+    return items
