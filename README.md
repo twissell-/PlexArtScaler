@@ -39,12 +39,11 @@ PlexArtScaler solves the common problem of inconsistent artwork dimensions in Pl
    pip install -r requirements.txt
    ```
 
-3. Configure the application:
-   - Copy the `config_template.json` file to `config.json` and update it with your Plex server details:
-     ```bash
-     cp config_template.json config.json
-     # Edit config.json with your preferred editor
-     ```
+3. Copy the `config_template.json` file to `config.json` and update it with your Plex server details:
+   ```bash
+   cp config_template.json config.json
+   # Edit config.json with your preferred editor
+   ```
 
 ## Usage
 
